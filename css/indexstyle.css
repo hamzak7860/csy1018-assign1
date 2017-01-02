@@ -1,0 +1,24 @@
+body {
+  font-size: 15px;
+  background: rgb(0, 0, 0);
+}
+
+.thumbnail-title {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.text2 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.links {
+  font-size: 20px;
+  color: rgb(23, 199, 0);
+}
