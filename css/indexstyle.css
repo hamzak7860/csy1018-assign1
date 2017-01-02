@@ -1,24 +1,38 @@
 body {
-  font-size: 15px;
   background: rgb(0, 0, 0);
 }
 
-.thumbnail-title {
+.header {
+  padding: 0.7cm;
   font-size: 30px;
+  background: rgb(0, 33, 117);
+  color: rgb(255,223,0);
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+  position:center;
+  font-size: 25px;
   color: rgb(255, 255, 255);
 }
 
 .text {
-  font-size: 30px;
-  color: rgb(255, 255, 255);
-}
-
-.text2 {
-  font-size: 30px;
-  color: rgb(255, 255, 255);
-}
-
-.links {
   font-size: 20px;
-  color: rgb(23, 199, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.thumbnail-image {
+text-align: center;
+margin-top: 30;
+width: 30%;
+}
+
+.footer {
+padding: 0.7cm;
+font-size: 30px;
+text-align: center;
+background: rgb(0, 33, 117);
+color: rgb(255,223,0);
 }
