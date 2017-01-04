@@ -10,10 +10,11 @@ body {
   text-align: center;
 }
 
-.links {
+.navbar {
+  letter-spacing: 2px;
   text-align: center;
   position: center;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
 }
 
@@ -35,7 +36,7 @@ width: 30%;
 .footer {
 padding: 0.7cm;
 font-size: 30px;
-text-align: center;
 background: rgb(0, 33, 117);
 color: rgb(255,223,0);
+text-align: center;
 }
