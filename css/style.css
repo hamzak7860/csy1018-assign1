@@ -7,12 +7,11 @@ body {
   font-size: 30px;
   background: rgb(0, 33, 117);
   color: rgb(255,223,0);
-  text-align: center;
+  keyframe
 }
 
 .navbar {
   letter-spacing: 2px;
-  text-align: center;
   position: center;
   font-size: 30px;
   color: rgb(255, 255, 255);
@@ -29,12 +28,11 @@ a:visited {
 }
 
 .thumbnail-image {
-text-align: center;
 width: 30%;
 }
 
 .form {
-  
+
 }
 
 .footer {
@@ -42,5 +40,4 @@ padding: 0.7cm;
 font-size: 30px;
 background: rgb(0, 33, 117);
 color: rgb(255,223,0);
-text-align: center;
 }
