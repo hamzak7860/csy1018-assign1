@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  font-family:;
   background: rgb(0, 0, 0);
 }
 
@@ -7,12 +10,15 @@ body {
   font-size: 30px;
   background: rgb(0, 33, 117);
   color: rgb(255,223,0);
-  keyframe
 }
 
 .navbar {
+  height: 100px;
+  width: 550px;
+  list-style: none;
+  padding: 10px;
+  margin-top: 10px;
   letter-spacing: 2px;
-  position: center;
   font-size: 30px;
   color: rgb(255, 255, 255);
 }
