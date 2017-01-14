@@ -1,4 +1,3 @@
-
 html {
   height: 100%;
 }
@@ -9,7 +8,7 @@ html {
 }
 
 body {
-  background: rgb(0, 0, 0)
+  background: rgb(0, 0, 0);
 }
 
 .header {
@@ -17,11 +16,23 @@ body {
   font-size: 30px;
   background: rgb(0, 33, 117);
   color: rgb(255,223,0);
+  text-align: center;
 }
+
+/* Logo
+media query
+flexbox
+responsive page(1 at least)
+CV
+Change layout
+A statis Form
+*/
+
 
 #navbar {
 margin-left: auto;;
 margin-right: auto;
+
 }
 
 #navbar {
@@ -31,8 +42,12 @@ margin-right: auto;
   background: rgb(68,0,0);
 }
 
+.cvtext {
+  color: white;
+}
+
 ul#nav li {
-  color: rgb(255, 255, 255);
+  color: white;
   letter-spacing: 0.2em;
   display: block;
   float: left;
@@ -40,6 +55,10 @@ ul#nav li {
   margin: 10px 0 0 10px;
   padding: 9px 26px 6px 26px;
   text-align: center;
+}
+
+nav {
+  background-color: white;
 }
 
 a:hover {
@@ -54,6 +73,7 @@ a:hover {
 
 .thumbnail-image {
 width: 30%;
+margin-left: 35%;
 }
 
 .form {
@@ -66,4 +86,5 @@ padding: 0.7cm;
 font-size: 30px;
 background: rgb(0, 33, 117);
 color: rgb(255,223,0);
+text-align: center;
 }
