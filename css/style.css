@@ -19,14 +19,13 @@ body {
   text-align: center;
 }
 
-/* Logo
-media query
+.logo {
+
+}
+
+/*media query
 flexbox
-responsive page(1 at least)
-CV
-Change layout
-A statis Form
-*/
+responsive page(1 at least) */
 
 
 #navbar {
@@ -42,12 +41,8 @@ margin-right: auto;
   background: rgb(68,0,0);
 }
 
-.cvtext {
-  color: white;
-}
-
 ul#nav li {
-  color: white;
+  color: rgb(255,255,255);
   letter-spacing: 0.2em;
   display: block;
   float: left;
@@ -57,8 +52,8 @@ ul#nav li {
   text-align: center;
 }
 
-nav {
-  background-color: white;
+a:visited {
+  color: rgb(255,255,255);
 }
 
 a:hover {
@@ -71,14 +66,40 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
+.cvtext {
+  color: rgb(255,255,255);
+}
+
 .thumbnail-image {
 width: 30%;
 margin-left: 35%;
 }
 
 .form {
-width: 250px;
-border: 2px;
+margin left: 10%;
+color: rgb(255,255,255);
+}
+
+#name {
+  height: 20px;
+  width: 300px;
+  margin: auto;
+  margin-top: auto;
+  border-radius: 10px;
+  background-color: rgb(255, 223, 0);
+  color: rgb(255, 255, 255);
+}
+
+.text2 {
+  font-size: 20px;
+  margin left: 10%;
+  color: rgb(255, 255, 255);
+}
+
+.text3 {
+  font-size: 20px;
+  margin left: 80%;
+  color: rgb(255, 255, 255);
 }
 
 .footer {
