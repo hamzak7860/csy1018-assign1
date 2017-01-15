@@ -27,7 +27,6 @@ body {
 flexbox
 responsive page(1 at least) */
 
-
 #navbar {
 margin-left: auto;;
 margin-right: auto;
@@ -75,19 +74,16 @@ width: 30%;
 margin-left: 35%;
 }
 
-.form {
-margin left: 10%;
-color: rgb(255,255,255);
+form {
+border: solid black 1px;
+padding: 2em;
+width: 20%;
+margin left: 35%;
+background-color: gold;
 }
 
 #name {
-  height: 20px;
-  width: 300px;
-  margin: auto;
-  margin-top: auto;
-  border-radius: 10px;
-  background-color: rgb(255, 223, 0);
-  color: rgb(255, 255, 255);
+
 }
 
 .text2 {
