@@ -9,6 +9,7 @@ html {
 
 body {
   background: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -18,14 +19,6 @@ body {
   color: rgb(255,223,0);
   text-align: center;
 }
-
-.logo {
-
-}
-
-/*media query
-flexbox
-responsive page(1 at least) */
 
 #navbar {
 margin-left: auto;;
@@ -80,10 +73,6 @@ padding: 2em;
 width: 20%;
 margin left: 35%;
 background-color: gold;
-}
-
-#name {
-
 }
 
 .text2 {
